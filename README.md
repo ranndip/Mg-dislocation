@@ -8,4 +8,14 @@
 
 * ```Mg.input``` file is prepared following the potential file syntex : https://github.com/ranndip/RANN-potentials
 * The calibration code is compiled from the following source code (https://github.com/ranndip/Calibration) using intel compiler in HPC systtem at Mississippi State University
-* The final output potential is "Mg.nn"
+* The final output potential is "Mg2.nn"
+
+## Use RANN potential in LAMMPS
+
+* Compile LAMMPS with the codes from USER-RANN folder : https://github.com/ranndip/USER-RANN
+* potential file syntax:
+
+``` 
+pair_style rann 
+pair_coeff ** Mg2.nn Mg
+```
