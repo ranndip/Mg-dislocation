@@ -61,9 +61,9 @@ calibrationparameters:tolerance:
 calibrationparameters:regularizer:
 8.0000000000e-04
 calibrationparameters:logfile:
-Mg.log
+Mg2.log
 calibrationparameters:potentialoutputfile:
-Mg.nn
+Mg2.nn
 calibrationparameters:potentialoutputfreq:
 100
 calibrationparameters:maxepochs:
